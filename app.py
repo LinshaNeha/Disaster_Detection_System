@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import numpy as np
 from PIL import Image
@@ -349,5 +348,3 @@ if uploaded_files:
                         result_text += f"\n\nFinal Prediction: {counts.most_common(1)[0][0]}"
                         timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
                         st.download_button(" Download Result Summary", result_text, file_name=f"summary_{timestamp}.txt")
-
->>>>>>> 0578ddf67449767e518fed0935b5cd15e4e599dd
